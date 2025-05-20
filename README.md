@@ -46,7 +46,7 @@ npm install
 ###  Step 3: Run Locally
 ## Frontend
 ```bash
-npm start 
+npm run dev
 ```
 ## Backend
 ```bash
