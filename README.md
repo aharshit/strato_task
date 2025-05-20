@@ -34,20 +34,25 @@ git clone git@github.com:<your-username>/strato_task.git
 cd strato_task
 ```
 ### Backend
+```bash
 cd backend
 go mod tidy
+```
 
 ### Frontend
+```bash
 cd frontend
 npm install      
-
+```
 ### Running Locally
 ## Frontend
+```bash
 npm start 
-
+```
 ## Backend
+```bash
 go run main.go
-
+```
 
 
 
