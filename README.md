@@ -5,20 +5,17 @@ A simple Go + React application that displays user password/ access status with 
 ---
 
 ## 📁 Repository Structure
+- **backend/**
+  - `go.mod`
+  - `main.go`
+- **frontend/**
+  - `package.json`
+  - **src/**
+    - `UsersTable.jsx`
+  - **public/**
+    - `index.html`
+- `README.md`
 
-├── backend/
-│ ├── go.mod
-│ └── main.go
-├── frontend/
-│ ├── package.json
-│ ├── src/
-│ │ └── UsersTable.jsx
-│ └── public/
-│ └── index.html
-└── README.md
-
-
----
 
 ### Setup Instructions
 
@@ -27,24 +24,26 @@ A simple Go + React application that displays user password/ access status with 
 - **Go** ≥1.18  
 - **Node.js** ≥18 (and npm or yarn)  
 
-### Clone & Install
+### Step 1: Clone
 
 ```bash
 git clone git@github.com:<your-username>/strato_task.git
 cd strato_task
 ```
-### Backend
+
+### Step 2: Install necessary dependencies
+## Backend
 ```bash
 cd backend
 go mod tidy
 ```
 
-### Frontend
+## Frontend
 ```bash
 cd frontend
 npm install      
 ```
-### Running Locally
+###  Step 3: Run Locally
 ## Frontend
 ```bash
 npm start 
